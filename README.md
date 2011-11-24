@@ -1,6 +1,6 @@
 MVNRepo
 ======================
-This is a public MVN repository
+This is a public MVN repository hosted on GitHub. You're free to use it in your projects and contribute with new libraries.
 
 Usage
 --------
@@ -14,6 +14,7 @@ Add the following code to your `pom.xml` for **releases** libraries:
 ```
 
 Add the following code to your `pom.xml` for **snapshots** libraries:
+
 ``` xml
 <repository>
 	<id>thefosk-snapshots</id>
@@ -21,15 +22,15 @@ Add the following code to your `pom.xml` for **snapshots** libraries:
 </repository>
 ```
 
-Libraries
+Releases
 --------
 
-###Releases###
-* Braintree
-  * ``` xml
-	<dependency>
-		<groupId>com.braintreegateway</groupId>
-		<artifactId>braintree</artifactId>
-		<version>2.13.1</version>
-	</dependency>
-	```
+* [Braintree](http://www.braintreepayments.com/) 
+
+``` xml
+<dependency>
+	<groupId>com.braintreegateway</groupId>
+	<artifactId>braintree</artifactId>
+	<version>2.13.1</version>
+</dependency>
+```
