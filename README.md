@@ -26,10 +26,10 @@ Add the following code to your `pom.xml` for **snapshots** libraries:
 
 How to contribute
 --------
-If you have a `*.jar` file, and you would like to distribute it in this repo, follow these steps:
+If you have a `*.jar` file, and you would like to distribute it in this Maven Repository, follow these steps:
 
 1. Clone this GitHub repository
-2. Execute the following `mvn deploy:deploy-file` command. For example:
+2. Execute `mvn deploy:deploy-file` command. For example:
 
 ```
 mvn deploy:deploy-file -DgroupId=com.braintreegateway \
