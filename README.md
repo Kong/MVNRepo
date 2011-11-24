@@ -29,23 +29,36 @@ How to contribute
 If you have a `*.jar` file, and you would like to distribute it in this Maven Repository, follow these steps:
 
 1. Clone this GitHub repository
-2. Execute `mvn deploy:deploy-file` command. For example:
+2. Execute the `mvn deploy:deploy-file` command. For example:
+
 
 ```
-mvn deploy:deploy-file -DgroupId=com.braintreegateway \
+mvn deploy:deploy-file -Dpackaging=jar \
+  -DgroupId=GROUPID \
+  -DartifactId=ARTIFACTID \
+  -Dversion=VERSION \
+  -Dfile=PATH-TO-FILE \
+  -Durl=file:/path-to-MVNRepo/releases-or-snapshots
+```
+
+For example:
+
+```
+mvn deploy:deploy-file -Dpackaging=jar \
+  -DgroupId=com.braintreegateway
   -DartifactId=braintree \
   -Dversion=2.13.1 \
-  -Dpackaging=jar \
   -Dfile=braintree-java-2.13.1.jar \
   -Durl=file:/path-to-MVNRepo/releases
 ```
 
-3. Be aware that the code above must be customized with the right arguments:
-   * DgroupId
-   * DartifactId
-   * Dversion
-   * Dfile
-   * Durl (this could be `releases` or `snapshots`)
+Be aware that the code above must be customized with the right arguments:
+
+* `-DgroupId`
+* `-DartifactId`
+* `-Dversion`
+* `-Dfile`
+* `-Durl` (this could be `releases` or `snapshots`)
 
 Releases
 --------
