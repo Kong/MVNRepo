@@ -1,0 +1,36 @@
+MVNRepo
+======================
+This is a public MVN repository
+
+Usage
+--------
+Add the following code to your `pom.xml` for **releases** libraries:
+
+``` xml
+<repository>
+	<id>thefosk-releases</id>
+	<url>https://github.com/thefosk/MVNRepo/raw/master/releases</url>
+</repository>
+```
+
+Add the following code to your `pom.xml` for **snapshots** libraries:
+
+``` xml
+<repository>
+	<id>thefosk-snapshots</id>
+	<url>https://github.com/thefosk/MVNRepo/raw/master/snapshots</url>
+</repository>
+```
+
+Releases
+--------
+
+* [Braintree](http://www.braintreepayments.com/) 
+
+``` xml
+<dependency>
+	<groupId>com.braintreegateway</groupId>
+	<artifactId>braintree</artifactId>
+	<version>2.13.1</version>
+</dependency>
+```
