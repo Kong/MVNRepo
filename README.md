@@ -24,6 +24,29 @@ Add the following code to your `pom.xml` for **snapshots** libraries:
 </repository>
 ```
 
+How to contribute
+--------
+If you have a `*.jar` file, and you would like to distribute it in this repo, follow these steps:
+
+1. Clone this GitHub repository
+2. Execute the following `mvn deploy:deploy-file` command. For example:
+
+```
+mvn deploy:deploy-file -DgroupId=com.braintreegateway \
+  -DartifactId=braintree \
+  -Dversion=2.13.1 \
+  -Dpackaging=jar \
+  -Dfile=braintree-java-2.13.1.jar \
+  -Durl=file:/path-to-MVNRepo/releases
+```
+
+3. Be aware that the code above must be customized with the right arguments:
+   * DgroupId
+   * DartifactId
+   * Dversion
+   * Dfile
+   * Durl (this could be `releases` or `snapshots`)
+
 Releases
 --------
 
@@ -38,3 +61,5 @@ Releases
 	<version>2.13.1</version>
 </dependency>
 ```
+
+
