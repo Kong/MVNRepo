@@ -25,12 +25,14 @@ Add the following code to your `pom.xml` for **snapshots** libraries:
 Releases
 --------
 
-* Braintree ([braintreepayments.com](http://www.braintreepayments.com/))
-  * Version **2.13.1**
-  * ``` xml
-	<dependency>
-		<groupId>com.braintreegateway</groupId>
-		<artifactId>braintree</artifactId>
-		<version>2.13.1</version>
-	</dependency>
-	```
+###Braintree###
+* ([braintreepayments.com](http://www.braintreepayments.com/))
+* Version **2.13.1**
+  
+``` xml
+<dependency>
+	<groupId>com.braintreegateway</groupId>
+	<artifactId>braintree</artifactId>
+	<version>2.13.1</version>
+</dependency>
+```
