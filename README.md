@@ -29,8 +29,7 @@ How to contribute
 If you have a `*.jar` file, and you would like to distribute it in this Maven Repository, follow these steps:
 
 1. Clone this GitHub repository
-2. Execute the `mvn deploy:deploy-file` command. For example:
-
+2. Execute the `mvn deploy:deploy-file` command:
 
 ```
 mvn deploy:deploy-file -Dpackaging=jar \
