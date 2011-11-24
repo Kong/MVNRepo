@@ -26,11 +26,11 @@ Releases
 --------
 
 * Braintree ([braintreepayments.com](http://www.braintreepayments.com/))
-
-``` xml
-<dependency>
-	<groupId>com.braintreegateway</groupId>
-	<artifactId>braintree</artifactId>
-	<version>2.13.1</version>
-</dependency>
-```
+  * Version **2.13.1**
+  * ``` xml
+	<dependency>
+		<groupId>com.braintreegateway</groupId>
+		<artifactId>braintree</artifactId>
+		<version>2.13.1</version>
+	</dependency>
+	```
