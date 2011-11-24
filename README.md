@@ -27,7 +27,7 @@ Releases
 
 ###Braintree###
 * Version: **2.13.1**
-* Website: [braintreepayments.com](http://www.braintreepayments.com/)
+* Website: [http://www.braintreepayments.com/](http://www.braintreepayments.com/)
   
 ``` xml
 <dependency>
