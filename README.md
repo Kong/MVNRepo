@@ -25,7 +25,7 @@ Add the following code to your `pom.xml` for **snapshots** libraries:
 Releases
 --------
 
-* [Braintree](http://www.braintreepayments.com/) 
+* Braintree ([braintreepayments.com](http://www.braintreepayments.com/))
 
 ``` xml
 <dependency>
