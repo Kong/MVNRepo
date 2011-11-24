@@ -1,6 +1,8 @@
 MVNRepo
 ======================
-This is a public MVN repository hosted on GitHub. You're free to use it in your projects and contribute with new libraries.
+This is a public Maven Repository hosted on GitHub that we use on Mashape. 
+
+You are free to use in your projects, and contribute to it.
 
 Usage
 --------
