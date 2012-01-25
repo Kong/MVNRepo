@@ -63,14 +63,14 @@ Releases
 --------
 
 ###Braintree###
-* Version: **2.13.1**
+* Version: **2.13.2**
 * Website: [http://www.braintreepayments.com](http://www.braintreepayments.com/)
   
 ``` xml
 <dependency>
 	<groupId>com.braintreegateway</groupId>
 	<artifactId>braintree</artifactId>
-	<version>2.13.1</version>
+	<version>2.13.2</version>
 </dependency>
 ```
 
