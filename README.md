@@ -74,4 +74,14 @@ Releases
 </dependency>
 ```
 
-
+###Mashape File Manager###
+* Version: **1.0**
+* Website: [https://github.com/Mashape/file-manager](https://github.com/Mashape/file-manager)
+  
+``` xml
+<dependency>
+	<groupId>com.mashape.file-manager</groupId>
+	<artifactId>mashape-file-manager</artifactId>
+	<version>1.0</version>
+</dependency>
+```
