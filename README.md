@@ -85,3 +85,15 @@ Releases
 	<version>1.0</version>
 </dependency>
 ```
+
+###PDFCROWD###
+* Version: **2.4**
+* Website: [http://pdfcrowd.com/](http://pdfcrowd.com/)
+  
+``` xml
+<dependency>
+	<groupId>com.pdfcrowd</groupId>
+	<artifactId>pdfcrowd</artifactId>
+	<version>2.4</version>
+</dependency>
+```
