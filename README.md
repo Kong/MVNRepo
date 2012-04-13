@@ -97,3 +97,18 @@ Releases
 	<version>2.4</version>
 </dependency>
 ```
+
+Snapshots
+--------
+
+###Morphia (MODIFIED VERSION, SEE URL)###
+* Version: **1.0-appco**
+* Website: [http://code.google.com/p/morphia/issues/detail?id=321](http://code.google.com/p/morphia/issues/detail?id=321)
+  
+``` xml
+<dependency>
+	<groupId>com.google.code.morphia</groupId>
+	<artifactId>morphia</artifactId>
+	<version>1.0-appco</version>
+</dependency>
+```
