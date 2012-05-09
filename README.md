@@ -95,7 +95,7 @@ Releases
 	<groupId>com.mashape.clients</groupId>
 	<artifactId>mashape-java-client</artifactId>
 	<version>1.0</version>
-</dependency
+</dependency>
 
 ###PDFCROWD###
 * Version: **2.4**
