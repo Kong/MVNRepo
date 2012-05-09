@@ -86,6 +86,17 @@ Releases
 </dependency>
 ```
 
+###Mashape Java Client Library###
+* Version: **1.0**
+* Website: [https://github.com/Mashape/mashape-java-client-library](https://github.com/Mashape/mashape-java-client-library)
+
+``` xml
+<dependency>
+	<groupId>com.mashape.clients</groupId>
+	<artifactId>mashape-java-client</artifactId>
+	<version>1.0</version>
+</dependency
+
 ###PDFCROWD###
 * Version: **2.4**
 * Website: [http://pdfcrowd.com/](http://pdfcrowd.com/)
