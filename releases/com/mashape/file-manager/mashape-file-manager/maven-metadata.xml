@@ -3,10 +3,11 @@
   <groupId>com.mashape.file-manager</groupId>
   <artifactId>mashape-file-manager</artifactId>
   <versioning>
-    <release>1.0</release>
+    <release>1.1</release>
     <versions>
       <version>1.0</version>
+      <version>1.1</version>
     </versions>
-    <lastUpdated>20120222152348</lastUpdated>
+    <lastUpdated>20120515234439</lastUpdated>
   </versioning>
 </metadata>
