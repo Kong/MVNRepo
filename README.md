@@ -51,6 +51,12 @@ mvn deploy:deploy-file -Dpackaging=jar \
   -Durl=file:/path-to-MVNRepo/releases
 ```
 
+or, if you want to preserve the original pom.xml
+
+```
+ mvn deploy:deploy-file -DpomFile=pom.xml -Dfile=PATH-TO-FILE -Durl=file:/path-to-MVNRepo/releases-or-snapshots
+```
+ 
 Be aware that the code above must be customized with the right arguments:
 
 * `-DgroupId`
