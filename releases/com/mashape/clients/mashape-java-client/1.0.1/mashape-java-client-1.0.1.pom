@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mashape.clients</groupId>
-  <artifactId>mashape-java-client</artifactId>
-  <version>1.0.1</version>
-=======
 <?xml version="1.0"?>
 <project
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
@@ -52,5 +43,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
->>>>>>> 66667e5941539ffad2b4dff8093d62d0aee55585
 </project>
