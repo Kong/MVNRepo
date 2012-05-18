@@ -10,8 +10,8 @@ Add the following code to your `pom.xml` for **releases** libraries:
 
 ``` xml
 <repository>
-	<id>thefosk-releases</id>
-	<url>https://github.com/thefosk/MVNRepo/raw/master/releases</url>
+	<id>mashape-releases</id>
+	<url>https://github.com/Mashape/MVNRepo/raw/master/releases</url>
 </repository>
 ```
 
@@ -19,8 +19,8 @@ Add the following code to your `pom.xml` for **snapshots** libraries:
 
 ``` xml
 <repository>
-	<id>thefosk-snapshots</id>
-	<url>https://github.com/thefosk/MVNRepo/raw/master/snapshots</url>
+	<id>mashape-snapshots</id>
+	<url>https://github.com/Mashape/MVNRepo/raw/master/snapshots</url>
 </repository>
 ```
 
