@@ -116,6 +116,22 @@ Releases
 </dependency>
 ```
 
+###Mashape Java Client###
+* Version: **1.1.0**
+* Website: [http://www.mashape.com/docs/consume/java](www.mashape.com/docs/consume/java)
+
+``` xml
+<dependency>
+	<groupId>com.mashape.clients</groupId>
+	<artifactId>mashape-java-client</artifactId>
+	<version>1.1.0</version>
+</dependency>
+```
+
+
+
+
+
 Snapshots
 --------
 
