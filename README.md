@@ -128,7 +128,17 @@ Releases
 </dependency>
 ```
 
+###jbeandumer###
+* Version: **1.5.1**
+* Website: [http://code.google.com/p/jbeandumer/](http://code.google.com/p/jbeandumer/)
 
+``` xml
+<dependency>
+	<groupId>ru.yandex.lc.jbd</groupId>
+	<artifactId>jbeandumer</artifactId>
+	<version>1.5.1</version>
+</dependency>
+```
 
 
 
