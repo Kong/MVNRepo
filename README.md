@@ -140,6 +140,17 @@ Releases
 </dependency>
 ```
 
+###objectdumper###
+* Version: **0.10**
+* Website: [http://codevanrohde.nl/wordpress/?p=20](http://codevanrohde.nl/wordpress/?p=20)
+
+``` xml
+<dependency>
+	<groupId>nu.rohde.objectdumper</groupId>
+	<artifactId>objectdumper</artifactId>
+	<version>0.10</version>
+</dependency>
+```
 
 
 Snapshots
