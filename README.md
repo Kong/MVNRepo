@@ -167,3 +167,14 @@ Snapshots
 	<version>1.0-appco</version>
 </dependency>
 ```
+
+###Mongo Analyzer###
+* Version: **1.0**
+  
+``` xml
+<dependency>
+	<groupId>com.mashape.mongo.analyzer</groupId>
+	<artifactId>mongo-analyzer</artifactId>
+	<version>1.0</version>
+</dependency>
+```
