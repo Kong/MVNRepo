@@ -93,14 +93,14 @@ Releases
 ```
 
 ###Mashape Java Client Library###
-* Version: **1.3.1**
+* Version: **1.3.2**
 * Website: [https://github.com/Mashape/mashape-java-client-library](https://github.com/Mashape/mashape-java-client-library)
 
 ``` xml
 <dependency>
 	<groupId>com.mashape.clients</groupId>
 	<artifactId>mashape-java-client</artifactId>
-	<version>1.3.1</version>
+	<version>1.3.2</version>
 </dependency>
 ```
 
