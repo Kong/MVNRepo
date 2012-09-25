@@ -44,7 +44,7 @@ For example:
 
 ```
 mvn deploy:deploy-file -Dpackaging=jar \
-  -DgroupId=com.braintreegateway
+  -DgroupId=com.braintreegateway \
   -DartifactId=braintree \
   -Dversion=2.13.1 \
   -Dfile=braintree-java-2.13.1.jar \
