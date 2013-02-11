@@ -100,7 +100,7 @@ Releases
 <dependency>
 	<groupId>com.mashape.clients</groupId>
 	<artifactId>mashape-java-client</artifactId>
-	<version>2.0.12</version>
+	<version>2.0.13</version>
 </dependency>
 ```
 
