@@ -1,6 +1,6 @@
 MVNRepo
 ======================
-This is a public Maven Repository hosted on GitHub that we use on [Mashape](http://www.mashape.com/). 
+This is a public Maven Repository hosted on `http://maven.mashape.com` that we use on [Mashape](http://www.mashape.com/). 
 
 You are free to use in your projects, and contribute to it.
 
@@ -11,7 +11,7 @@ Add the following code to your `pom.xml` for **releases** libraries:
 ``` xml
 <repository>
 	<id>mashape-releases</id>
-	<url>https://github.com/Mashape/MVNRepo/raw/master/releases</url>
+	<url>http://maven.mashape.com/releases</url>
 </repository>
 ```
 
@@ -20,7 +20,7 @@ Add the following code to your `pom.xml` for **snapshots** libraries:
 ``` xml
 <repository>
 	<id>mashape-snapshots</id>
-	<url>https://github.com/Mashape/MVNRepo/raw/master/snapshots</url>
+	<url>http://maven.mashape.com/snapshots</url>
 </repository>
 ```
 
@@ -67,6 +67,18 @@ Be aware that the code above must be customized with the right arguments:
 
 Releases
 --------
+
+###Unicorn-Java###
+* Version: **1.0.0**
+* Website: [http://getunicorn.io](http://getunicorn.io/)
+  
+``` xml
+<dependency>
+	<groupId>com.mashape.unicorn</groupId>
+	<artifactId>unicorn-java</artifactId>
+	<version>1.0.0</version>
+</dependency>
+```
 
 ###Braintree###
 * Version: **2.13.2**
