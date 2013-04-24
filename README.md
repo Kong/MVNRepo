@@ -74,8 +74,8 @@ Releases
   
 ``` xml
 <dependency>
-	<groupId>com.mashape.unicorn</groupId>
-	<artifactId>unicorn-java</artifactId>
+	<groupId>com.mashape.unirest</groupId>
+	<artifactId>unirest-java</artifactId>
 	<version>1.0.0</version>
 </dependency>
 ```
