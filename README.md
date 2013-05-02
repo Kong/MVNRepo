@@ -68,9 +68,9 @@ Be aware that the code above must be customized with the right arguments:
 Releases
 --------
 
-###Unicorn-Java###
+###Unirest-Java###
 * Version: **1.0.0**
-* Website: [http://getunicorn.io](http://getunicorn.io/)
+* Website: [http://unirest.io](http://unirest.io/)
   
 ``` xml
 <dependency>
