@@ -1,6 +1,6 @@
 MVNRepo
 ======================
-This is a public Maven Repository hosted on GitHub that we use on [Mashape](http://www.mashape.com/). 
+This is a public Maven Repository hosted on `http://maven.mashape.com` that we use on [Mashape](http://www.mashape.com/). 
 
 You are free to use in your projects, and contribute to it.
 
@@ -11,7 +11,7 @@ Add the following code to your `pom.xml` for **releases** libraries:
 ``` xml
 <repository>
 	<id>mashape-releases</id>
-	<url>https://github.com/Mashape/MVNRepo/raw/master/releases</url>
+	<url>http://maven.mashape.com/releases</url>
 </repository>
 ```
 
@@ -20,7 +20,7 @@ Add the following code to your `pom.xml` for **snapshots** libraries:
 ``` xml
 <repository>
 	<id>mashape-snapshots</id>
-	<url>https://github.com/Mashape/MVNRepo/raw/master/snapshots</url>
+	<url>http://maven.mashape.com/snapshots</url>
 </repository>
 ```
 
@@ -44,7 +44,7 @@ For example:
 
 ```
 mvn deploy:deploy-file -Dpackaging=jar \
-  -DgroupId=com.braintreegateway
+  -DgroupId=com.braintreegateway \
   -DartifactId=braintree \
   -Dversion=2.13.1 \
   -Dfile=braintree-java-2.13.1.jar \
@@ -67,6 +67,18 @@ Be aware that the code above must be customized with the right arguments:
 
 Releases
 --------
+
+###Unicorn-Java###
+* Version: **1.0.0**
+* Website: [http://getunicorn.io](http://getunicorn.io/)
+  
+``` xml
+<dependency>
+	<groupId>com.mashape.unirest</groupId>
+	<artifactId>unirest-java</artifactId>
+	<version>1.0.0</version>
+</dependency>
+```
 
 ###Braintree###
 * Version: **2.13.2**
@@ -93,14 +105,14 @@ Releases
 ```
 
 ###Mashape Java Client Library###
-* Version: **1.2.0**
+* Version: **2.0.13**
 * Website: [https://github.com/Mashape/mashape-java-client-library](https://github.com/Mashape/mashape-java-client-library)
 
 ``` xml
 <dependency>
 	<groupId>com.mashape.clients</groupId>
 	<artifactId>mashape-java-client</artifactId>
-	<version>1.2.0</version>
+	<version>2.0.13</version>
 </dependency>
 ```
 
@@ -113,18 +125,6 @@ Releases
 	<groupId>com.pdfcrowd</groupId>
 	<artifactId>pdfcrowd</artifactId>
 	<version>2.4</version>
-</dependency>
-```
-
-###Mashape Java Client###
-* Version: **1.1.0**
-* Website: [http://www.mashape.com/docs/consume/java](www.mashape.com/docs/consume/java)
-
-``` xml
-<dependency>
-	<groupId>com.mashape.clients</groupId>
-	<artifactId>mashape-java-client</artifactId>
-	<version>1.1.0</version>
 </dependency>
 ```
 
