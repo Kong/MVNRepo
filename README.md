@@ -69,14 +69,14 @@ Releases
 --------
 
 ###Unirest-Java###
-* Version: **1.1.1**
+* Version: **1.2.4**
 * Website: [http://unirest.io](http://unirest.io/)
   
 ``` xml
 <dependency>
 	<groupId>com.mashape.unirest</groupId>
 	<artifactId>unirest-java</artifactId>
-	<version>1.1.1</version>
+	<version>1.2.4</version>
 </dependency>
 ```
 
