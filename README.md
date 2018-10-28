@@ -68,7 +68,7 @@ Be aware that the code above must be customized with the right arguments:
 Releases
 --------
 
-###Unirest-Java###
+### Unirest-Java ###
 * Version: **1.2.8**
 * Website: [http://unirest.io](http://unirest.io/)
   
@@ -80,7 +80,7 @@ Releases
 </dependency>
 ```
 
-###Braintree###
+### Braintree ###
 * Version: **2.13.2**
 * Website: [http://www.braintreepayments.com](http://www.braintreepayments.com/)
   
@@ -92,7 +92,7 @@ Releases
 </dependency>
 ```
 
-###Mashape File Manager###
+### Mashape File Manager ###
 * Version: **1.1.2**
 * Website: [https://github.com/Mashape/file-manager](https://github.com/Mashape/file-manager)
   
@@ -104,7 +104,7 @@ Releases
 </dependency>
 ```
 
-###Mashape Java Client Library###
+### Mashape Java Client Library ###
 * Version: **2.0.13**
 * Website: [https://github.com/Mashape/mashape-java-client-library](https://github.com/Mashape/mashape-java-client-library)
 
@@ -116,7 +116,7 @@ Releases
 </dependency>
 ```
 
-###PDFCROWD###
+### PDFCROWD ###
 * Version: **2.4**
 * Website: [http://pdfcrowd.com/](http://pdfcrowd.com/)
   
@@ -128,7 +128,7 @@ Releases
 </dependency>
 ```
 
-###jbeandumer###
+### jbeandumer ###
 * Version: **1.5.1**
 * Website: [http://code.google.com/p/jbeandumer/](http://code.google.com/p/jbeandumer/)
 
@@ -140,7 +140,7 @@ Releases
 </dependency>
 ```
 
-###objectdumper###
+### objectdumper ###
 * Version: **0.10**
 * Website: [http://codevanrohde.nl/wordpress/?p=20](http://codevanrohde.nl/wordpress/?p=20)
 
@@ -156,7 +156,7 @@ Releases
 Snapshots
 --------
 
-###Morphia (MODIFIED VERSION, SEE URL)###
+### Morphia (MODIFIED VERSION, SEE URL) ###
 * Version: **1.0-appco**
 * Website: [http://code.google.com/p/morphia/issues/detail?id=321](http://code.google.com/p/morphia/issues/detail?id=321)
   
@@ -168,7 +168,7 @@ Snapshots
 </dependency>
 ```
 
-###Mongo Analyzer###
+### Mongo Analyzer ###
 * Version: **1.0**
   
 ``` xml
